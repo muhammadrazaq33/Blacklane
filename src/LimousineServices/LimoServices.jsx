@@ -8,7 +8,7 @@ const events = [
 ];
 const LimoServices = () => {
   return (
-    <div className="w-[1200px] max-w-[95vw] m-auto mt-[5rem]">
+    <div className="w-[1200px] max-w-[95vw] m-auto mt-[2.5rem] lg:mt-[5rem]">
       <div className="grid grid-cols-1 md1:grid-cols-2 gap-x-[5rem] place-content-between gap-y-5">
         {/* TITLE PaRAGrAGh */}
         <div className=" flex flex-col gap-3 order-2 md1:order-1">
@@ -30,9 +30,9 @@ const LimoServices = () => {
           </p>
           {/* EVenTs ==> */}
           <div>
-            {events.map((eve) => {
+            {events.map((eve, index) => {
               return (
-                <article className="flex items-center gap-x-4">
+                <article key={index} className="flex items-center gap-x-4">
                   <div className="w-1 h-1 rounded-3xl bg-black"></div>
                   <p className="text-[16px] font-semibold">{eve}</p>
                 </article>

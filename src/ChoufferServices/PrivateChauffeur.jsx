@@ -3,15 +3,15 @@ import { NavLink } from "react-router-dom";
 
 const PrivateChauffeur = () => {
   return (
-    <div className="w-[1200px] max-w-[95vw] m-auto mt-[5rem]">
-      <div className="grid md1:grid-cols-2 grid-cols-1 gap-x-[3rem] lg:gap-x-[1rem] place-content-between gap-y-4">
+    <div className="w-[1200px] max-w-[95vw] m-auto mt-[2.5rem] lg:mt-[5rem]">
+      <div className="grid md1:grid-cols-2 grid-cols-1 gap-x-[4rem] place-content-between gap-y-4">
         {/* IMAGE   ===>*/}
         <div>
-          <img src="./ASSETS/img-3.jpg" className=" md1:w-[32rem]" alt="" />
+          <img src="./ASSETS/img-3.jpg" className=" md1:w-[100%]" alt="" />
         </div>
         {/* TITLE PaRAGrAGh */}
         <div className=" flex flex-col gap-3 mt-3">
-          <h1 className="text-[28px] lg:text-[32px] font-semibold">
+          <h1 className="text-[28px] lg:text-[32px] font-semibold leading-[2.2rem]">
             Travel from A to B in your city by private chauffeur
           </h1>
           <p className=" text-[16px] md1:max-w-[36.8rem] w-full">

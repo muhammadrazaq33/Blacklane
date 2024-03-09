@@ -3,41 +3,47 @@ import { NavLink } from "react-router-dom";
 
 const GetToAirport = () => {
   return (
-    <div className="w-[1200px] max-w-[95vw] m-auto mt-[5rem]">
-      <div className="grid md1:grid-cols-2 grid-cols-1 gap-x-[3rem] lg:gap-x-[1rem] place-content-between gap-y-4">
+    <div className="w-[1200px] max-w-[95vw] m-auto md1:mt-[5rem] mt-[2.5rem]">
+      <div className="grid md1:grid-cols-2 grid-cols-1 gap-x-[4rem] gap-y-5">
         {/* IMAGE   ===>*/}
-        <div>
-          <img src="./ASSETS/image-4.jpg" className=" md1:w-[32rem]" alt="" />
+        <div className="">
+          <img src="./ASSETS/image-4.jpg" className=" md1:w-[100%]" alt="" />
         </div>
         {/* TITLE PaRAGrAGh */}
-        <div className=" flex flex-col gap-3">
-          <h1 className="text-[28px] lg:text-[32px] font-semibold">
+        <div className=" flex flex-col">
+          <h1 className="text-[28px] lg:text-[32px] font-semibold mb-3">
             Get to or from the airport
           </h1>
           <p className=" text-[16px] md1:max-w-[36.8rem] w-full">
-            <span className=" font-bold hover-underline-animation mr-1">
-              <NavLink to={"/limousineservices"}>
-                A Blacklane chauffeur service
-              </NavLink>
-            </span>
-            aims to achieve the very highest possible standards possible for all
-            its passengers. Whether you’re stepping out of{" "}
+            In pursuit of an unparalleled travel experience,{" "}
             <span className=" font-bold hover-underline-animation">
-              <NavLink to={"/limousineservices"}>LAX in California</NavLink>
+              <NavLink to={"/limousineservices"}>Blacklane chauffeurs</NavLink>{" "}
             </span>{" "}
-            on business or you need to be dropped off at{" "}
+            prioritize exceptional{" "}
+            <span className=" font-bold hover-underline-animation">
+              <NavLink to={"/limousineservices"}>service</NavLink>{" "}
+            </span>{" "}
+            for every client. Whether you're touching down at{" "}
+            <span className=" font-bold hover-underline-animation">
+              <NavLink to={"/limousineservices"}>LAX</NavLink>{" "}
+            </span>{" "}
+            for a{" "}
+            <span className=" font-bold hover-underline-animation">
+              <NavLink to={"/limousineservices"}>California</NavLink>{" "}
+            </span>{" "}
+            business trip or departing{" "}
             <span className=" font-bold hover-underline-animation">
               <NavLink to={"/limousineservices"}>
                 Bangkok International Airport
-              </NavLink>
+              </NavLink>{" "}
             </span>{" "}
-            after a holiday in Thailand, Blacklane will get you there relaxed,
-            recharged and ready with an airport pick up or transfer taxi
-            service. Traveling from airports to your hotel with family or
-            colleagues? A Blacklane Business Van can be shared by up to five
-            people together, with plenty of room for luggage. For those after
-            that little bit extra, consider our First Class service for the
-            epitome of style and comfort - a great idea for special occasions.
+            after a Thai escapade, Blacklane ensures a comfortable and
+            stress-free journey with our airport pickup and transfer services.
+            Traveling to your hotel with loved ones or colleagues? Our Blacklane
+            Business Van comfortably seats up to five passengers, with ample
+            luggage space. Craving an extra dose of luxury? Choose our First
+            Class service, offering the pinnacle of style and comfort – ideal
+            for those unforgettable occasions.
           </p>
         </div>
       </div>

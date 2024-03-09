@@ -29,7 +29,7 @@ const WorldWild = () => {
 
         {/* IMAGE   ===>*/}
         <div className="order-1 md1:order-2">
-          <img src="./ASSETS/img-2.jpg" className=" md1:w-[32rem]" alt="" />
+          <img src="./ASSETS/img-2.jpg" className=" md1:w-[100%]" alt="" />
         </div>
       </div>
     </div>

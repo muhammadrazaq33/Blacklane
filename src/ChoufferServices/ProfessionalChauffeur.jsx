@@ -7,7 +7,7 @@ const ProfessionalChauffeur = () => {
       <div className="grid grid-cols-1 md1:grid-cols-2 gap-x-[5rem] place-content-between gap-y-5 mt-[2.5rem] lg:mt-[5rem]">
         {/* TITLE PaRAGrAGh */}
         <div className=" flex flex-col gap-3 order-2 md1:order-1">
-          <h1 className="text-[28px] lg:text-[32px] font-semibold">
+          <h1 className="text-[28px] lg:text-[32px] font-semibold leading-[2.2rem]">
             Professional chauffeur service to and from the airport
           </h1>
           <p className=" text-[16px] md1:max-w-[36rem] w-full">
@@ -34,11 +34,7 @@ const ProfessionalChauffeur = () => {
 
         {/* IMAGE   ===>*/}
         <div className="order-1 md1:order-2">
-          <img
-            src="./ASSETS/image-5.jpg"
-            className=" md1:w-[32rem] h-full object-fill"
-            alt=""
-          />
+          <img src="./ASSETS/image-5.jpg" className=" md1:w-[100%]" alt="" />
         </div>
       </div>
     </div>

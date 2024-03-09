@@ -7,9 +7,7 @@ import AirportSuttle from "./AirportSuttle";
 const AirportTransfer = () => {
   return (
     <div>
-      <div>
-        <SignatureBg />
-      </div>
+      <div>{/* <SignatureBg /> */}</div>
       <AirportToCity />
       <GetToAirport />
       <AirportSuttle />
