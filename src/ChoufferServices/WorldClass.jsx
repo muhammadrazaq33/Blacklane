@@ -1,0 +1,32 @@
+import React from "react";
+
+const WorldClass = () => {
+  return (
+    <div className="w-[1200px] max-w-[95vw] m-auto mt-[5rem]">
+      <div className="grid md1:grid-cols-2 grid-cols-1 gap-x-[3rem] lg:gap-x-[1rem] place-content-between gap-y-4">
+        {/* IMAGE   ===>*/}
+        <div>
+          <img src="./ASSETS/img-1.jpg" className=" md1:w-[32rem]" alt="" />
+        </div>
+        {/* TITLE PaRAGrAGh */}
+        <div className=" flex flex-col gap-3 mt-3">
+          <h1 className="text-[28px] lg:text-[32px] font-semibold">
+            World class chauffeurs going the extra mile
+          </h1>
+          <p className=" text-[16px] md1:max-w-[36.8rem] w-full">
+            Day in and day out, they exceed expectations. It’s ingrained in
+            their very essence. That's why we celebrate the genuine dedication
+            of Blacklane chauffeurs. Their commitment goes beyond mere job
+            titles, as they strive to enhance every aspect of your journey. To
+            truly appreciate the impact of their dedication, reserve a
+            chauffeured ride today for yourself, a colleague, or a client.
+            Experience the difference firsthand and elevate your travel
+            experience with Blacklane.
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default WorldClass;
