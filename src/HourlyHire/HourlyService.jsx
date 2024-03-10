@@ -3,7 +3,7 @@ import React from "react";
 const HourlyService = () => {
   return (
     <div>
-      <div className="w-[1200px] max-w-[93vw] m-auto mt-[5rem]">
+      <div className="w-[1200px] max-w-[93vw] m-auto mt-[1.3rem]">
         <div className="grid md1:grid-cols-2 grid-cols-1 gap-x-[4rem] place-content-center  gap-y-4">
           {/* IMAGE   ===>*/}
           <div>

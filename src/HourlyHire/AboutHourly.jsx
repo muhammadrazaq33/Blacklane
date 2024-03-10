@@ -22,7 +22,7 @@ const Service = [
 ];
 const AboutHourly = () => {
   return (
-    <div className=" w-[1200px] max-w-[95vw] m-auto mt-[3.5rem]">
+    <div className=" w-[1200px] max-w-[95vw] m-auto mt-[0rem]">
       {/*  */}
       <div className="grid md:grid-cols-3 grid-cols-1 gap-x-10 ">
         {Service.map((curEle) => {

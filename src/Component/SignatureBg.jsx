@@ -8,7 +8,7 @@ import signature from "../../public/ASSETS/signature.svg";
 
 const SignatureBg = () => {
   return (
-    <section className="relative mt-[4rem]">
+    <section className="relative mt-[0rem]">
       <Wrapper styles={"px-4 relative"}>
         <div className="btn-gradient w-[90%] md:w-[370px] md:max-w-[370px] custom-lg:max-w-[650px] custom-lg:w-[630px]  px-8 py-4 md:left-10 top-[320px]  md:top-9 absolute">
           <img
