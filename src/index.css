@@ -57,3 +57,9 @@ a:hover {
   color: #fbfbfd;
   background: linear-gradient(95.14deg, #e52c43, #ff6c00 91.74%);
 }
+
+.GRID {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* column-gap: ; */
+}
