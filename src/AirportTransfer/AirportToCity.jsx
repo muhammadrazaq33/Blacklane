@@ -2,14 +2,14 @@ import React from "react";
 
 const AirportToCity = () => {
   return (
-    <div className="w-[1200px] max-w-[95vw] m-auto mt-[2.5rem] lg:mt-[5rem]">
+    <div className="w-[1200px] max-w-[93vw] m-auto mt-[2.5rem] lg:mt-[5rem]">
       <div className="grid grid-cols-1 md1:grid-cols-2 gap-x-[5rem] place-content-between gap-y-5">
         {/* TITLE PaRAGrAGh */}
         <div className=" flex flex-col gap-3 order-2 md1:order-1">
-          <h1 className="text-[28px] lg:text-[32px] font-semibold">
+          <h1 className="text-[28px] lg:text-[32px] font-semibold text-[#181A1F]">
             Airport transfer in the city
           </h1>
-          <p className="text-[16px] md1:max-w-[37.5rem]">
+          <p className="text-[16px] md1:max-w-[37.5rem] text-[#181a1f]">
             Upon arrival from a lengthy flight, exhausted and sore, nothing
             beats a Blacklane airport transfer straight to your final stop.
             Blacklane operates in numerous cities and airports globally,

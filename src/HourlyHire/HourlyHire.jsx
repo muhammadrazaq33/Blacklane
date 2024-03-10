@@ -4,6 +4,7 @@ import OccasIon from "./OccasIon";
 import DownloadApp from "./DownloadApp";
 import HourlyHero from "./HourlyHero";
 import AboutHourly from "./AboutHourly";
+import Signaturebg1 from "./Signaturebg1";
 
 const HourlyHire = () => {
   return (
@@ -12,6 +13,7 @@ const HourlyHire = () => {
       <AboutHourly />
       <HourlyService />
       <OccasIon />
+      <Signaturebg1 />
       <DownloadApp />
     </div>
   );

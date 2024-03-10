@@ -26,7 +26,7 @@ const Hero = () => {
     <section className="relative">
       <Wrapper styles={"relative px-4"}>
         <h1 className="text-[32px] font-semibold  mb-4">
-          City to City Long Distance Car Service
+          Cross-Country Luxury Travel Experience
         </h1>
         {/*   FORM */}
         <div

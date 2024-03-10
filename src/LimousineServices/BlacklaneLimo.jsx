@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const BlacklaneLimo = () => {
   return (
-    <div className="w-[1200px] max-w-[95vw] m-auto mt-[2.5rem] lg:mt-[5rem]">
+    <div className="w-[1200px] max-w-[93vw] m-auto mt-[2.5rem] lg:mt-[5rem]">
       <div className="grid md1:grid-cols-2 grid-cols-1 gap-x-[4rem] place-content-center gap-y-4">
         {/* IMAGE   ===>*/}
         <div>
@@ -11,10 +11,10 @@ const BlacklaneLimo = () => {
         </div>
         {/* TITLE PaRAGrAGh */}
         <div className=" flex flex-col gap-3 mt-3">
-          <h1 className="text-[28px] lg:text-[32px] font-semibold leading-[2.2rem]">
+          <h1 className="text-[28px] lg:text-[32px] font-semibold leading-[2.2rem] text-[#181A1F]">
             Get around with a Blacklane limo service
           </h1>
-          <p className=" text-[16px] md1:max-w-[36.8rem] w-full">
+          <p className=" text-[16px] md1:max-w-[36.8rem] w-full text-[#181a1f]">
             With a Blacklane limo service you can explore any event the city has
             to offer with sophistication and ease. Blacklane’s limousine service
             fleet can be tailored to fit a variety of needs: our regular
@@ -26,10 +26,13 @@ const BlacklaneLimo = () => {
             a limo service for prom or a wedding limousine? We have you covered.
             Blacklane’s Business Van option allows you and your party to travel
             as one to the airport, with plenty of room for your luggage and
-            belongings. Whatever you choose to do, using a{" "}
+            belongings. Whatever you choose to do, using a chauffeur{" "}
+            <span className=" font-bold hover-underline-animation">
+              <NavLink to={"/limousineservices"}>chauffeur</NavLink>{" "}
+            </span>{" "}
             <span className=" font-bold hover-underline-animation">
               <NavLink to={"/limousineservices"}>
-                chauffeur service from Blacklane
+                service from Blacklane
               </NavLink>{" "}
             </span>{" "}
             means you’ll be arriving in style.

@@ -3,14 +3,14 @@ import { NavLink } from "react-router-dom";
 
 const AirportService = () => {
   return (
-    <div className="w-[1200px] max-w-[95vw] m-auto mb-11">
+    <div className="w-[1200px] max-w-[93vw] m-auto mb-11">
       <div className="grid grid-cols-1 md1:grid-cols-2 gap-x-[5rem] place-content-between gap-y-5 mt-[2.5rem] lg:mt-[5rem]">
         {/* TITLE PaRAGrAGh */}
         <div className=" flex flex-col gap-3 order-2 md1:order-1">
-          <h1 className="text-[28px] lg:text-[32px] font-semibold">
+          <h1 className="text-[28px] lg:text-[32px] font-semibold text-[#181A1F]">
             Airport limousine service
           </h1>
-          <p className=" text-[16px] md1:max-w-[36rem] w-full">
+          <p className=" text-[16px] md1:max-w-[36rem] w-full text-[#181a1f]">
             Book our{" "}
             <span className=" font-bold hover-underline-animation">
               <NavLink to={"/limousineservices"}>airport transfer</NavLink>{" "}

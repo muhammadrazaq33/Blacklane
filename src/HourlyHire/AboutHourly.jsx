@@ -24,16 +24,24 @@ const AboutHourly = () => {
   return (
     <div className=" w-[1200px] max-w-[95vw] m-auto mt-[3.5rem]">
       {/*  */}
-      <div className="grid md:grid-cols-3 grid-cols-1 gap-x-12 ">
+      <div className="grid md:grid-cols-3 grid-cols-1 gap-x-10 ">
         {Service.map((curEle) => {
           const { id, img, heading, text } = curEle;
           return (
-            <article key={id} className="grid place-items-center gap-y-4 mb-5">
-              <img src={img} alt="" />
+            <article
+              key={id}
+              className="flex flex-col gap-3 items-center shadow-sm sm:shadow-none py-12"
+            >
+              <div>
+                {" "}
+                <img src={img} alt="" />
+              </div>
               <h1 className="text-[24px] font-semibold text-center">
                 {heading}
               </h1>
-              <p className="text-center max-w-[20rem] text-[18px] ">{text}</p>
+              <p className="text-center max-w-[20rem] text-[20px] text-[#181A1F] ">
+                {text}
+              </p>
             </article>
           );
         })}

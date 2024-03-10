@@ -6,7 +6,7 @@ import Links from "./Links";
 export const Header = () => {
   const [menu, setMenu] = useState(false);
   return (
-    <nav className="shadow-sm py-2 w-[1200px] max-w-[95vw] m-auto">
+    <nav className="shadow-sm py-2 w-[1200px] max-w-[93vw] m-auto">
       <div className="flex items-center justify-between max-w-[1200px] m-auto">
         <h1 className="text-[2rem] font-bold">BLACKLANE</h1>
         {/* links ===== */}

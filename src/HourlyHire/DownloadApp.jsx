@@ -2,13 +2,15 @@ import React from "react";
 
 const DownloadApp = () => {
   return (
-    <div className="w-[1200px] max-w-[95vw] m-auto mt-[5rem]">
+    <div className="w-[1200px] max-w-[93vw] m-auto mt-[5rem]">
       <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-x-8 gap-y-8 ">
         {/* Download Text */}
         <div className="lg:text-left text-center lg:order-1 order-2 lg:mt-[4rem]">
-          <h3 className="text-3xl font-semibold">Download the app</h3>
+          <h3 className="text-3xl font-semibold text-[#181A1F]">
+            Download the app
+          </h3>
           <div className=" flex flex-col gap-8 mt-4">
-            <p className="mt-4 lg:max-w-lg">
+            <p className="mt-4 lg:max-w-lg text-[#181a1f]">
               Easily book, change, or cancel rides on the go. Think of it as
               peace of mind in the palm of your hand.
             </p>

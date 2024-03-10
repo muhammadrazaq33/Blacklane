@@ -26,7 +26,7 @@ const LimoHero = () => {
     <section className="relative">
       <Wrapper styles={"relative px-4"}>
         <h1 className="text-[32px] font-semibold  mb-4">
-          Your reliable hourly car service
+          Transportation Service Worldwide
         </h1>
         {/*   FORM */}
         <div

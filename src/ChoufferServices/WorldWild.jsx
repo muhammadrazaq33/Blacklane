@@ -2,14 +2,14 @@ import React from "react";
 
 const WorldWild = () => {
   return (
-    <div className="w-[1200px] max-w-[95vw] m-auto">
+    <div className="w-[1200px] max-w-[93vw] m-auto">
       <div className="grid grid-cols-1 md1:grid-cols-2 gap-x-[5rem] place-content-between gap-y-5 mt-[2.5rem] lg:mt-[5rem]">
         {/* TITLE PaRAGrAGh */}
         <div className=" flex flex-col gap-3 order-2 md1:order-1">
-          <h1 className="text-[28px] lg:text-[32px] font-semibold">
+          <h1 className="text-[28px] lg:text-[32px] font-semibold text-[#181A1F]">
             Chauffeur hire worldwide
           </h1>
-          <p className=" text-[16px] md1:max-w-[36rem] w-full">
+          <p className=" text-[16px] md1:max-w-[36rem] w-full text-[#181a1f]">
             There's no better way to travel than with Blacklane chauffeur
             services, offering comfort, reliability, and style. Trust your
             transportation needs to our professional chauffeurs and experience

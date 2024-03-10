@@ -5,12 +5,14 @@ import PrivateChauffeur from "./PrivateChauffeur";
 import ProfessionalChauffeur from "./ProfessionalChauffeur";
 import ChauffeurHero from "./ChauffeurHero";
 import Services from "../Component/Services";
+import SignatureBg from "../Component/SignatureBg";
 
 const ChoufferServices = () => {
   return (
     <div>
       <ChauffeurHero />
       <Services />
+      <SignatureBg />
       <WorldClass />
       <WorldWild />
       <PrivateChauffeur />

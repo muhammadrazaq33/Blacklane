@@ -3,14 +3,14 @@ import React from "react";
 const OccasIon = () => {
   return (
     <div>
-      <div className="w-[1200px] max-w-[95vw] m-auto">
+      <div className="w-[1200px] max-w-[93vw] m-auto">
         <div className="grid grid-cols-1 md1:grid-cols-2 gap-x-[5rem] place-content-between gap-y-5 mt-[2.5rem] lg:mt-[5rem]">
           {/* TITLE PaRAGrAGh */}
           <div className=" flex flex-col gap-3 order-2 md1:order-1 place-self-center">
-            <h1 className="text-[28px] lg:text-[32px] font-semibold leading-[2.2rem]">
+            <h1 className="text-[28px] lg:text-[32px] font-semibold leading-[2.2rem] text-[#181A1F]">
               By-the-hour hire for any occasion
             </h1>
-            <p className=" text-[16px] md1:max-w-[36rem] w-full">
+            <p className=" text-[16px] md1:max-w-[36rem] w-full text-[#181a1f]">
               A Blacklane chauffeur by your side for a designated timeframe
               unlocks a world of adaptable travel planning. This service caters
               to both business and leisure travelers, offering the freedom to
