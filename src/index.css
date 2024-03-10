@@ -42,7 +42,7 @@ a {
 }
 a:hover {
   cursor: pointer;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .bg-download {

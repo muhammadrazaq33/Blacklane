@@ -5,19 +5,19 @@ const Service = [
     id: 1,
     img: "./ASSETS/Dollar_svg.svg",
     heading: "Competitive rates",
-    text: "Access premium service at distance-based prices that are fair to you and our chauffeurs.",
+    text: "Access high-quality service at prices tailored to your distance, ensuring fairness for both you and our chauffeurs.",
   },
   {
     id: 2,
     img: "./ASSETS/Airoplan_svg.svg",
     heading: "Seamless airport travel",
-    text: "Relax with 1 hour of complimentary wait time and flight tracking.",
+    text: "Unwind with a complimentary hour of relaxation, including monitoring your flight status.",
   },
   {
     id: 3,
     img: "./ASSETS/reminder_svg.svg",
     heading: "Travel on your terms",
-    text: "Stay flexible and in charge of your schedule. It’s quick and easy for you to cancel or make changes to any ride.",
+    text: "Maintain control over your schedule effortlessly. Cancel or modify any ride with ease, ensuring flexibility on your end.",
   },
 ];
 const Services = () => {

@@ -26,14 +26,12 @@ const BlacklaneLimo = () => {
             a limo service for prom or a wedding limousine? We have you covered.
             Blacklane’s Business Van option allows you and your party to travel
             as one to the airport, with plenty of room for your luggage and
-            belongings. Whatever you choose to do, using a chauffeur{" "}
+            belongings. Whatever you choose to do, using a{" "}
             <span className=" font-bold hover-underline-animation">
-              <NavLink to={"/limousineservices"}>chauffeur</NavLink>{" "}
+              <NavLink to={"/choufferservices"}> chauffeur</NavLink>{" "}
             </span>{" "}
             <span className=" font-bold hover-underline-animation">
-              <NavLink to={"/limousineservices"}>
-                service from Blacklane
-              </NavLink>{" "}
+              <NavLink to={"/choufferservices"}>service from Blacklane</NavLink>{" "}
             </span>{" "}
             means you’ll be arriving in style.
           </p>

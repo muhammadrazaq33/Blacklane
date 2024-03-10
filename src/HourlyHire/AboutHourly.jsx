@@ -5,13 +5,13 @@ const Service = [
     id: 1,
     img: "./ASSETS/web-app.svg",
     heading: "Book via app or web",
-    text: "No need to call or email for a quote. Enter your ride details, see the fixed price, and book. It’s really that simple.",
+    text: "No requirement for phone or email inquiries. Enter details, view fixed price, and book easily. That straightforward.",
   },
   {
     id: 2,
     img: "./ASSETS/car.svg",
     heading: "Your safe passage",
-    text: "Travel confidently knowing your safety is our #1 priority. Rigorous health and cleaning standards round out a best-in-class service.",
+    text: "Travel assured with your safety as our top priority. Exemplary service includes rigorous health and cleaning standards.",
   },
   {
     id: 3,

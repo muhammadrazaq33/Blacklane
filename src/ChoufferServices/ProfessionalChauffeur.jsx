@@ -13,7 +13,7 @@ const ProfessionalChauffeur = () => {
           <p className=" text-[16px] md1:max-w-[36rem] w-full text-[#181a1f]">
             After a long flight,{" "}
             <span className=" font-bold hover-underline-animation">
-              <NavLink to={"/limousineservices"}>
+              <NavLink to={"/airportTransfer"}>
                 Blacklane's flexible airport transfer service
               </NavLink>{" "}
             </span>{" "}

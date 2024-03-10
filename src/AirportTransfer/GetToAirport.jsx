@@ -17,25 +17,23 @@ const GetToAirport = () => {
           <p className=" text-[16px] md1:max-w-[36.8rem] w-full text-[#181a1f]">
             In pursuit of an unparalleled travel experience,{" "}
             <span className=" font-bold hover-underline-animation">
-              <NavLink to={"/limousineservices"}>Blacklane chauffeurs</NavLink>{" "}
+              <NavLink to={"/choufferservices"}>Blacklane chauffeurs</NavLink>{" "}
             </span>{" "}
             prioritize exceptional{" "}
             <span className=" font-bold hover-underline-animation">
-              <NavLink to={"/limousineservices"}>service</NavLink>{" "}
+              <NavLink to={"/choufferservices"}>service</NavLink>{" "}
             </span>{" "}
             for every client. Whether you're touching down at{" "}
             <span className=" font-bold hover-underline-animation">
-              <NavLink to={"/limousineservices"}>LAX</NavLink>{" "}
+              <NavLink>LAX</NavLink>{" "}
             </span>{" "}
             for a{" "}
             <span className=" font-bold hover-underline-animation">
-              <NavLink to={"/limousineservices"}>California</NavLink>{" "}
+              <NavLink>California</NavLink>{" "}
             </span>{" "}
             business trip or departing{" "}
             <span className=" font-bold hover-underline-animation">
-              <NavLink to={"/limousineservices"}>
-                Bangkok International Airport
-              </NavLink>{" "}
+              <NavLink>Bangkok International Airport</NavLink>{" "}
             </span>{" "}
             after a Thai escapade, Blacklane ensures a comfortable and
             stress-free journey with our airport pickup and transfer services.

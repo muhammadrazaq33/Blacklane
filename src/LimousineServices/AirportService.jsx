@@ -13,7 +13,7 @@ const AirportService = () => {
           <p className=" text-[16px] md1:max-w-[36rem] w-full text-[#181a1f]">
             Book our{" "}
             <span className=" font-bold hover-underline-animation">
-              <NavLink to={"/limousineservices"}>airport transfer</NavLink>{" "}
+              <NavLink to={"/airportTransfer"}>airport transfer</NavLink>{" "}
             </span>{" "}
             service for up to five people and enjoy a luxurious limo ride to the
             airport, day or night. At Blacklane, professionalism, comfort, and
